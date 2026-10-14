@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Starling</title>
+<title>Writer</title>
 <style>
   html, body { margin: 0; height: 100%; background: #101418; }
   canvas { display: block; width: 100vw; height: 100vh; touch-action: none; }
@@ -36,17 +36,20 @@
   window.addEventListener('error', (event) => {
     console.error(String(event.error?.stack || event.message));
   });
-  import { startStarling } from './releases/c7af2e60de813f3f/starling.js';
+  import { startStarling } from './starling.js?v=26ca9bd585b3f140';
   const fontStatus = document.getElementById('font-status');
   const retryFonts = fontStatus.querySelector('button');
   retryFonts.addEventListener('click', () => window.starling?.retryFonts().catch(console.error));
   startStarling({
     canvas: document.getElementById('starling'),
-    app: 'releases/c7af2e60de813f3f/app.wasm.gz',
-    skwasmBase: 'releases/c7af2e60de813f3f/skwasm/',
+    app: 'app.wasm.gz?v=1c6faec2c507a6c8',
+    // The app's command line (Office: ['--slides'] starts in Slides).
+    args: ["garden-brief.docx"],
+    initialFiles: [{"name": "garden-brief.docx", "url": "examples/garden-brief.docx"}],
+    skwasmBase: 'skwasm/',
     // Written by build/web-app.sh; the first face is also the fallback
     // for any family nobody loaded.
-    fonts: 'releases/c7af2e60de813f3f/fonts/manifest.json',
+    fonts: 'fonts/manifest.json',
     onFontStatus({ pending, failed }) {
       fontStatus.hidden = !pending.length && !failed.length;
       fontStatus.querySelector('span').textContent = failed.length
@@ -64,7 +67,7 @@
     },
   }).then((starling) => {
     window.starling = starling;
-    document.title = 'Starling — running';
+    document.title = 'Writer';
     const loading = document.getElementById('loading');
     // The first frame is on screen a beat after start returns.
     requestAnimationFrame(() => requestAnimationFrame(() => {
@@ -74,7 +77,7 @@
   })
     .catch((error) => {
       console.error(String(error.stack || error));
-      document.title = 'Starling — failed';
+      document.title = 'Writer — failed';
       document.body.append(Object.assign(document.createElement('pre'), {
         textContent: String(error.stack || error),
         style: 'color:#ef5350;padding:16px;white-space:pre-wrap',
