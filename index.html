@@ -39,19 +39,19 @@
     console.error(String(event.error?.stack || event.message));
     window.dispatchEvent(new Event('starling-reader-failed'));
   });
-  import { startStarling } from './starling.js?v=5290b01086aacbd9';
+  import { startStarling } from './starling.js?v=d88d2a415c35b649';
   const fontStatus = document.getElementById('font-status');
   const retryFonts = fontStatus.querySelector('button');
   retryFonts.addEventListener('click', () => window.starling?.retryFonts().catch(console.error));
   startStarling({
     canvas: document.getElementById('starling'),
-    app: 'app.wasm.gz?v=7eb4d9d4df9bd238',
+    app: 'app.wasm.gz?v=da281ff6f7c85b6a',
     // The app's command line (Office: ['--slides'] starts in Slides).
     args: ["garden-brief.docx"],
     initialFiles: [{"name": "garden-brief.docx", "url": "examples/garden-brief.docx?v=5c1f2f2d5a4fc1e0"}],
     // The tab's URL path is the app's route (the wiki opens the page it names).
     initialRoute: location.pathname + location.search + location.hash,
-    skwasmBase: 'skwasm/',
+    skwasmBase: 'skwasm-f2bc4996fb630c7b/',
     // Written by build/web-app.sh; the first face is also the fallback
     // for any family nobody loaded.
     fonts: 'fonts/manifest.json',
