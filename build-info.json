@@ -4,5 +4,7 @@
   "packaged_at": "2026-10-26T05:26:53.702368+00:00",
   "app_sha256": "da281ff6f7c85b6ae9caef6c6d088c7dcb6af66661c3b8a2cd89149d80a34a5d",
   "renderer_base": "skwasm-f2bc4996fb630c7b/",
-  "renderer_sha256": "362dffdba0d0d7d4870ecab270288ba9f4d1291298ad9c9467490e0f04f509e2"
+  "renderer_sha256": "362dffdba0d0d7d4870ecab270288ba9f4d1291298ad9c9467490e0f04f509e2",
+  "web_assets_revision": "cbe5264e230520be9fce75863814c46202ebf614",
+  "web_assets_updated_at": "2026-10-26T07:56:22.935544+00:00"
 }

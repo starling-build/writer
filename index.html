@@ -54,7 +54,7 @@
     skwasmBase: 'skwasm-f2bc4996fb630c7b/',
     // Written by build/web-app.sh; the first face is also the fallback
     // for any family nobody loaded.
-    fonts: 'fonts/manifest.json',
+    fonts: 'fonts/manifest.json?v=e917911a7c7f0d43',
     onFontStatus({ pending, failed }) {
       fontStatus.hidden = !pending.length && !failed.length;
       fontStatus.querySelector('span').textContent = failed.length
