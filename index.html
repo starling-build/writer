@@ -27,6 +27,11 @@
   #font-status[hidden] { display: none; }
   #font-status button { margin-left: 10px; cursor: pointer; }
 </style>
+<!-- office-preloads -->
+<link rel="preload" as="fetch" crossorigin="anonymous" href="app.wasm.gz?v=f7714eec05ce12f2">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="skwasm-f2bc4996fb630c7b/skwasm.wasm">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="fonts/manifest.json?v=e917911a7c7f0d43">
+<!-- /office-preloads -->
 </head>
 <body>
 <canvas id="starling"></canvas>
@@ -45,7 +50,7 @@
   retryFonts.addEventListener('click', () => window.starling?.retryFonts().catch(console.error));
   startStarling({
     canvas: document.getElementById('starling'),
-    app: 'app.wasm.gz?v=da281ff6f7c85b6a',
+    app: 'app.wasm.gz?v=f7714eec05ce12f2',
     // The app's command line (Office: ['--slides'] starts in Slides).
     args: ["garden-brief.docx"],
     initialFiles: [{"name": "garden-brief.docx", "url": "examples/garden-brief.docx?v=5c1f2f2d5a4fc1e0"}],
