@@ -28,9 +28,19 @@
   #font-status button { margin-left: 10px; cursor: pointer; }
 </style>
 <!-- office-preloads -->
-<link rel="preload" as="fetch" crossorigin="anonymous" href="app.wasm.gz?v=f7714eec05ce12f2">
-<link rel="preload" as="fetch" crossorigin="anonymous" href="skwasm-f2bc4996fb630c7b/skwasm.wasm">
-<link rel="preload" as="fetch" crossorigin="anonymous" href="fonts/manifest.json?v=e917911a7c7f0d43">
+<script>
+{
+  let appURL = "app.wasm.gz?v=f7714eec05ce12f2";
+  try { new DecompressionStream('brotli'); appURL = "app.wasm.br?v=8bc5c6a552d537b2"; } catch {}
+  // Share responses with the host instead of relying on preload-cache reuse.
+  globalThis.__starlingPreloads = {};
+  for (const url of [appURL, "skwasm-f2bc4996fb630c7b/skwasm.wasm", "fonts/manifest.json?v=e917911a7c7f0d43"]) {
+    const response = fetch(url);
+    response.catch(() => {}); // errors are handled when the host consumes it
+    globalThis.__starlingPreloads[new URL(url, document.baseURI).href] = response;
+  }
+}
+</script>
 <!-- /office-preloads -->
 </head>
 <body>
@@ -44,12 +54,14 @@
     console.error(String(event.error?.stack || event.message));
     window.dispatchEvent(new Event('starling-reader-failed'));
   });
-  import { startStarling } from './starling.js?v=d88d2a415c35b649';
+  import { startStarling } from './starling.js?v=76912fe2c2f2dd7f';
   const fontStatus = document.getElementById('font-status');
   const retryFonts = fontStatus.querySelector('button');
   retryFonts.addEventListener('click', () => window.starling?.retryFonts().catch(console.error));
   startStarling({
     canvas: document.getElementById('starling'),
+    appBrotli: "app.wasm.br?v=8bc5c6a552d537b2",
+    preloaded: globalThis.__starlingPreloads,
     app: 'app.wasm.gz?v=f7714eec05ce12f2',
     // The app's command line (Office: ['--slides'] starts in Slides).
     args: ["garden-brief.docx"],
