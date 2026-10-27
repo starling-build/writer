@@ -30,10 +30,10 @@
 <!-- office-preloads -->
 <script>
 {
-  let appURL = "app.wasm.gz?v=f7714eec05ce12f2";
-  let rendererURL = "skwasm-f2bc4996fb630c7b/skwasm.wasm";
-  try { new DecompressionStream('brotli'); appURL = "app.wasm.br?v=8bc5c6a552d537b2"; } catch {}
-  try { new DecompressionStream('brotli'); rendererURL = "skwasm-f2bc4996fb630c7b/skwasm.wasm.br?v=deb1ea594ffc040a"; } catch {}
+  let appURL = "app.wasm.gz?v=6dd0d784dcb5e088";
+  let rendererURL = "skwasm-11189c07f4eacad0/skwasm.wasm";
+  try { new DecompressionStream('brotli'); appURL = "app.wasm.br?v=898b1f24ebd34133"; } catch {}
+  try { new DecompressionStream('brotli'); rendererURL = "skwasm-11189c07f4eacad0/skwasm.wasm.br?v=420a338a3356c7cf"; } catch {}
   // Share responses with the host instead of relying on preload-cache reuse.
   globalThis.__starlingPreloads = {};
   for (const url of [appURL, rendererURL, "fonts/manifest.json?v=d1d8dc0a0ee11e68"]) {
@@ -62,16 +62,16 @@
   retryFonts.addEventListener('click', () => window.starling?.retryFonts().catch(console.error));
   startStarling({
     canvas: document.getElementById('starling'),
-    appBrotli: "app.wasm.br?v=8bc5c6a552d537b2",
+    appBrotli: "app.wasm.br?v=898b1f24ebd34133",
     preloaded: globalThis.__starlingPreloads,
-    app: 'app.wasm.gz?v=f7714eec05ce12f2',
+    app: 'app.wasm.gz?v=6dd0d784dcb5e088',
     // The app's command line (Office: ['--slides'] starts in Slides).
     args: ["garden-brief.docx"],
     initialFiles: [{"name": "garden-brief.docx", "url": "examples/garden-brief.docx?v=5c1f2f2d5a4fc1e0"}],
     // The tab's URL path is the app's route (the wiki opens the page it names).
     initialRoute: location.pathname + location.search + location.hash,
-    skwasmBrotli: "skwasm-f2bc4996fb630c7b/skwasm.wasm.br?v=deb1ea594ffc040a",
-    skwasmBase: 'skwasm-f2bc4996fb630c7b/',
+    skwasmBrotli: "skwasm-11189c07f4eacad0/skwasm.wasm.br?v=420a338a3356c7cf",
+    skwasmBase: 'skwasm-11189c07f4eacad0/',
     // Written by build/web-app.sh; the first face is also the fallback
     // for any family nobody loaded.
     fonts: 'fonts/manifest.json?v=d1d8dc0a0ee11e68',

@@ -1,10 +1,13 @@
 {
-  "application": "writer",
-  "source_revision": "2f43d5ca696b7cb5c66a755964e4c5b431c979a6",
-  "packaged_at": "2026-10-26T05:26:53.702368+00:00",
-  "app_sha256": "da281ff6f7c85b6ae9caef6c6d088c7dcb6af66661c3b8a2cd89149d80a34a5d",
-  "renderer_base": "skwasm-f2bc4996fb630c7b/",
-  "renderer_sha256": "362dffdba0d0d7d4870ecab270288ba9f4d1291298ad9c9467490e0f04f509e2",
-  "web_assets_revision": "ad572dc107b146e680593d46db3a78cd5550eaed",
-  "web_assets_updated_at": "2026-10-27T01:44:03.470737+00:00"
+  "source_revision": "d12e334f229abe44929b859d677d04539e411156",
+  "office_revision": "2d7762f933c20e45e551c47d294dd0a038d2310d",
+  "engine_revision": "d637a6311b93e25b2c434274a44b3a8fc0eb3c42",
+  "engine_remote_revision": "c34c8aa8ebaeac003ca4317dcef71e88f40bba05",
+  "packaged_at": "2026-10-27T16:47:54.553038+00:00",
+  "app_sha256": "abbb391bae0342b8616fee407636b44a2eee7ab7ae9f10e92aabfc08d80ed3e1",
+  "app_gzip_sha256": "6dd0d784dcb5e088faefb09b73c133a211e653104c7f2aca674b2ab66fdec610",
+  "app_brotli_sha256": "898b1f24ebd34133bfcc2842725e1fc51d21de34342bea2844988fd80806e76c",
+  "renderer_base": "skwasm-11189c07f4eacad0/",
+  "renderer_sha256": "84b927ad4caf211b6183d17e6c3c3ec4a75f135791f0a02c8013c90ed7347a6f",
+  "application": "writer"
 }
