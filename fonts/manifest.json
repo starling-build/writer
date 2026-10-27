@@ -3,7 +3,8 @@
     "url": "fonts/Selawik-Regular.ttf",
     "families": [
       "Selawik"
-    ]
+    ],
+    "brotli": "fonts/Selawik-Regular.ttf.br"
   },
   {
     "url": "fonts/NotoSansSC-VariableFont_wght.ttf",
@@ -11,567 +12,649 @@
       "Noto Sans SC"
     ],
     "fallback": true,
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/NotoSansSC-VariableFont_wght.ttf.br"
   },
   {
     "url": "fonts/Selawik-Semibold.ttf",
     "families": [
       "Selawik Semibold",
       "Selawik"
-    ]
+    ],
+    "brotli": "fonts/Selawik-Semibold.ttf.br"
   },
   {
     "url": "fonts/DejaVuSans.ttf",
     "families": [
       "DejaVu Sans"
     ],
-    "fallback": true
+    "fallback": true,
+    "brotli": "fonts/DejaVuSans.ttf.br"
   },
   {
     "url": "fonts/CupertinoIcons.ttf",
     "families": [
       "CupertinoIcons"
-    ]
+    ],
+    "brotli": "fonts/CupertinoIcons.ttf.br"
   },
   {
     "url": "fonts/FluentSystemIcons-Regular.ttf",
     "families": [
       "FluentSystemIcons"
-    ]
+    ],
+    "brotli": "fonts/FluentSystemIcons-Regular.ttf.br"
   },
   {
     "url": "fonts/ArchivoBlack-Regular.ttf",
     "families": [
       "Archivo Black"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/ArchivoBlack-Regular.ttf.br"
   },
   {
     "url": "fonts/Caladea-Bold.ttf",
     "families": [
       "Caladea"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Caladea-Bold.ttf.br"
   },
   {
     "url": "fonts/Caladea-BoldItalic.ttf",
     "families": [
       "Caladea"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Caladea-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/Caladea-Italic.ttf",
     "families": [
       "Caladea"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Caladea-Italic.ttf.br"
   },
   {
     "url": "fonts/Caladea-Regular.ttf",
     "families": [
       "Caladea"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Caladea-Regular.ttf.br"
   },
   {
     "url": "fonts/Carlito-Bold.ttf",
     "families": [
       "Carlito"
-    ]
+    ],
+    "brotli": "fonts/Carlito-Bold.ttf.br"
   },
   {
     "url": "fonts/Carlito-BoldItalic.ttf",
     "families": [
       "Carlito"
-    ]
+    ],
+    "brotli": "fonts/Carlito-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/Carlito-Italic.ttf",
     "families": [
       "Carlito"
-    ]
+    ],
+    "brotli": "fonts/Carlito-Italic.ttf.br"
   },
   {
     "url": "fonts/Carlito-Regular.ttf",
     "families": [
       "Carlito"
-    ]
+    ],
+    "brotli": "fonts/Carlito-Regular.ttf.br"
   },
   {
     "url": "fonts/DejaVuSans-Bold.ttf",
     "families": [
       "DejaVu Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/DejaVuSans-Bold.ttf.br"
   },
   {
     "url": "fonts/DejaVuSans-BoldItalic.ttf",
     "families": [
       "DejaVu Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/DejaVuSans-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/DejaVuSans-Italic.ttf",
     "families": [
       "DejaVu Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/DejaVuSans-Italic.ttf.br"
   },
   {
     "url": "fonts/DejaVuSans-Regular.ttf",
     "families": [
       "DejaVu Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/DejaVuSans-Regular.ttf.br"
   },
   {
     "url": "fonts/LiberationMono-Bold.ttf",
     "families": [
       "Liberation Mono"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationMono-Bold.ttf.br"
   },
   {
     "url": "fonts/LiberationMono-BoldItalic.ttf",
     "families": [
       "Liberation Mono"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationMono-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LiberationMono-Italic.ttf",
     "families": [
       "Liberation Mono"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationMono-Italic.ttf.br"
   },
   {
     "url": "fonts/LiberationMono-Regular.ttf",
     "families": [
       "Liberation Mono"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationMono-Regular.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Bold.ttf",
     "families": [
       "Liberation Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Bold.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Bold.ttf",
     "families": [
       "Liberation Sans Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Bold.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-BoldItalic.ttf",
     "families": [
       "Liberation Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-BoldItalic.ttf",
     "families": [
       "Liberation Sans Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Italic.ttf",
     "families": [
       "Liberation Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Italic.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Italic.ttf",
     "families": [
       "Liberation Sans Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Italic.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Regular.ttf",
     "families": [
       "Liberation Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Regular.ttf.br"
   },
   {
     "url": "fonts/LiberationSans-Regular.ttf",
     "families": [
       "Liberation Sans Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSans-Regular.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Bold.ttf",
     "families": [
       "Liberation Serif"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Bold.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Bold.ttf",
     "families": [
       "Liberation Serif Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Bold.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-BoldItalic.ttf",
     "families": [
       "Liberation Serif"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-BoldItalic.ttf",
     "families": [
       "Liberation Serif Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Italic.ttf",
     "families": [
       "Liberation Serif"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Italic.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Italic.ttf",
     "families": [
       "Liberation Serif Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Italic.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Regular.ttf",
     "families": [
       "Liberation Serif"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Regular.ttf.br"
   },
   {
     "url": "fonts/LiberationSerif-Regular.ttf",
     "families": [
       "Liberation Serif Word"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LiberationSerif-Regular.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-Bold.ttf",
     "families": [
       "Libre Franklin"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-Bold.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-BoldItalic.ttf",
     "families": [
       "Libre Franklin"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-Italic.ttf",
     "families": [
       "Libre Franklin"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-Italic.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-Medium.ttf",
     "families": [
       "Libre Franklin Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-Medium.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-MediumItalic.ttf",
     "families": [
       "Libre Franklin Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-MediumItalic.ttf.br"
   },
   {
     "url": "fonts/LibreFranklin-Regular.ttf",
     "families": [
       "Libre Franklin"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/LibreFranklin-Regular.ttf.br"
   },
   {
     "url": "fonts/Poppins-Black.ttf",
     "families": [
       "Poppins Black"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Black.ttf.br"
   },
   {
     "url": "fonts/Poppins-BlackItalic.ttf",
     "families": [
       "Poppins Black"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-BlackItalic.ttf.br"
   },
   {
     "url": "fonts/Poppins-Bold.ttf",
     "families": [
       "Poppins"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Bold.ttf.br"
   },
   {
     "url": "fonts/Poppins-BoldItalic.ttf",
     "families": [
       "Poppins"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/Poppins-Italic.ttf",
     "families": [
       "Poppins"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Italic.ttf.br"
   },
   {
     "url": "fonts/Poppins-Light.ttf",
     "families": [
       "Poppins Light"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Light.ttf.br"
   },
   {
     "url": "fonts/Poppins-LightItalic.ttf",
     "families": [
       "Poppins Light"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-LightItalic.ttf.br"
   },
   {
     "url": "fonts/Poppins-Medium.ttf",
     "families": [
       "Poppins Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Medium.ttf.br"
   },
   {
     "url": "fonts/Poppins-MediumItalic.ttf",
     "families": [
       "Poppins Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-MediumItalic.ttf.br"
   },
   {
     "url": "fonts/Poppins-Regular.ttf",
     "families": [
       "Poppins"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-Regular.ttf.br"
   },
   {
     "url": "fonts/Poppins-SemiBold.ttf",
     "families": [
       "Poppins SemiBold"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-SemiBold.ttf.br"
   },
   {
     "url": "fonts/Poppins-SemiBoldItalic.ttf",
     "families": [
       "Poppins SemiBold"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/Poppins-SemiBoldItalic.ttf.br"
   },
   {
     "url": "fonts/SelawikDoc-Bold.ttf",
     "families": [
       "Selawik Doc"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/SelawikDoc-Bold.ttf.br"
   },
   {
     "url": "fonts/SelawikDoc-Light.ttf",
     "families": [
       "Selawik Doc Light"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/SelawikDoc-Light.ttf.br"
   },
   {
     "url": "fonts/SelawikDoc-Regular.ttf",
     "families": [
       "Selawik Doc"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/SelawikDoc-Regular.ttf.br"
   },
   {
     "url": "fonts/SelawikDoc-Semibold.ttf",
     "families": [
       "Selawik Doc Semibold"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/SelawikDoc-Semibold.ttf.br"
   },
   {
     "url": "fonts/SelawikDoc-Semilight.ttf",
     "families": [
       "Selawik Doc Semilight"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/SelawikDoc-Semilight.ttf.br"
   },
   {
     "url": "fonts/StarlingFangSong-Regular.ttf",
     "families": [
       "Starling FangSong"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/StarlingFangSong-Regular.ttf.br"
   },
   {
     "url": "fonts/WorkSans-Bold.ttf",
     "families": [
       "Work Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-Bold.ttf.br"
   },
   {
     "url": "fonts/WorkSans-BoldItalic.ttf",
     "families": [
       "Work Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-BoldItalic.ttf.br"
   },
   {
     "url": "fonts/WorkSans-Italic.ttf",
     "families": [
       "Work Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-Italic.ttf.br"
   },
   {
     "url": "fonts/WorkSans-Light.ttf",
     "families": [
       "Work Sans Light"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-Light.ttf.br"
   },
   {
     "url": "fonts/WorkSans-LightItalic.ttf",
     "families": [
       "Work Sans Light"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-LightItalic.ttf.br"
   },
   {
     "url": "fonts/WorkSans-Medium.ttf",
     "families": [
       "Work Sans Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-Medium.ttf.br"
   },
   {
     "url": "fonts/WorkSans-MediumItalic.ttf",
     "families": [
       "Work Sans Medium"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-MediumItalic.ttf.br"
   },
   {
     "url": "fonts/WorkSans-Regular.ttf",
     "families": [
       "Work Sans"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/WorkSans-Regular.ttf.br"
   },
   {
     "url": "fonts/TeXGyreAdventor-Bold.otf",
     "families": [
       "TeX Gyre Adventor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreAdventor-Bold.otf.br"
   },
   {
     "url": "fonts/TeXGyreAdventor-BoldItalic.otf",
     "families": [
       "TeX Gyre Adventor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreAdventor-BoldItalic.otf.br"
   },
   {
     "url": "fonts/TeXGyreAdventor-Italic.otf",
     "families": [
       "TeX Gyre Adventor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreAdventor-Italic.otf.br"
   },
   {
     "url": "fonts/TeXGyreAdventor-Regular.otf",
     "families": [
       "TeX Gyre Adventor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreAdventor-Regular.otf.br"
   },
   {
     "url": "fonts/TeXGyreCursor-Bold.otf",
     "families": [
       "TeX Gyre Cursor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreCursor-Bold.otf.br"
   },
   {
     "url": "fonts/TeXGyreCursor-BoldItalic.otf",
     "families": [
       "TeX Gyre Cursor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreCursor-BoldItalic.otf.br"
   },
   {
     "url": "fonts/TeXGyreCursor-Italic.otf",
     "families": [
       "TeX Gyre Cursor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreCursor-Italic.otf.br"
   },
   {
     "url": "fonts/TeXGyreCursor-Regular.otf",
     "families": [
       "TeX Gyre Cursor"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyreCursor-Regular.otf.br"
   },
   {
     "url": "fonts/TeXGyrePagella-Bold.otf",
     "families": [
       "TeX Gyre Pagella"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyrePagella-Bold.otf.br"
   },
   {
     "url": "fonts/TeXGyrePagella-BoldItalic.otf",
     "families": [
       "TeX Gyre Pagella"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyrePagella-BoldItalic.otf.br"
   },
   {
     "url": "fonts/TeXGyrePagella-Italic.otf",
     "families": [
       "TeX Gyre Pagella"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyrePagella-Italic.otf.br"
   },
   {
     "url": "fonts/TeXGyrePagella-Regular.otf",
     "families": [
       "TeX Gyre Pagella"
     ],
-    "lazy": true
+    "lazy": true,
+    "brotli": "fonts/TeXGyrePagella-Regular.otf.br"
   }
 ]

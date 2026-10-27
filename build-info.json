@@ -5,6 +5,6 @@
   "app_sha256": "da281ff6f7c85b6ae9caef6c6d088c7dcb6af66661c3b8a2cd89149d80a34a5d",
   "renderer_base": "skwasm-f2bc4996fb630c7b/",
   "renderer_sha256": "362dffdba0d0d7d4870ecab270288ba9f4d1291298ad9c9467490e0f04f509e2",
-  "web_assets_revision": "1bcf097d7932ec8b2df82da3bde1581bc8ab5eea",
-  "web_assets_updated_at": "2026-10-27T00:13:16.544911+00:00"
+  "web_assets_revision": "9726779ee5245623669370fa7ddda97e33bad7f9",
+  "web_assets_updated_at": "2026-10-27T00:28:31.582276+00:00"
 }
